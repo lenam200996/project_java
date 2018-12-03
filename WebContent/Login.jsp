@@ -1,16 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Dang nhap</title>
+<meta charset="ISO-8859-1">
+<title>LOGIN</title>
 </head>
 <body>
-	<form action="LoginServlet">
-		<input type="text" name="username">
-		<input type="password" name="password">
-		<input type="submit" value="dang nhap">
+	<form action="LoginSV" method="Post">
+		<input name="us" value="nam">
+		<input name="pw" type="password" value="1">
+		<input type="submit" value="LOGIN">
 	</form>
 </body>
 </html>

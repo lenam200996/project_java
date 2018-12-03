@@ -1,11 +1,9 @@
 package model.bean;
 
 public class User {
-
 	private String username;
 	private String password;
 	private String fullname;
-
 	public String getUsername() {
 		return username;
 	}
@@ -24,7 +22,7 @@ public class User {
 	public void setFullname(String fullname) {
 		this.fullname = fullname;
 	}
-	public User( String username, String password, String fullname) {
+	public User(String username, String password, String fullname) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -33,6 +31,5 @@ public class User {
 	public User() {
 		super();
 	}
-	
 	
 }
